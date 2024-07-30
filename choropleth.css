@@ -1,0 +1,24 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(187, 193, 191);
+}
+
+.county:hover {
+    color: blue;
+}
+
+#canvas {
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+#tooltip {
+    visibility: hidden;
+}
